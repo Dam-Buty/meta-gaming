@@ -1,0 +1,65 @@
+{
+  "style": {
+    "width": 80,
+    "tl": "┌",
+    "tr": "┐",
+    "bl": "└",
+    "br": "┘",
+    "h": "─",
+    "v": "│",
+    "ml": "├",
+    "mr": "┤",
+    "bar_full": "█",
+    "bar_empty": "░",
+    "bar_width": 12,
+    "rail": false,
+    "art_align": "center"
+  },
+  "title": "LA GALERIE BASSE",
+  "zones": [
+    {
+      "kind": "prose",
+      "text": "Deux rats terrifiants vous font face ! Ils vous ont entendus racler le boyau, ils ont eu tout le temps de réfléchir, et manifestement ils ont un plan."
+    },
+    {
+      "kind": "rule"
+    },
+    {
+      "kind": "art",
+      "file": "art/rats.txt",
+      "lines": [
+        "        (\\_/)              (\\_/)",
+        "       ( o.o )            ( o.o )",
+        "        > ^ <              > ^ <",
+        "   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+      ]
+    },
+    {
+      "kind": "rule"
+    },
+    {
+      "kind": "gauges",
+      "rows": [
+        {
+          "label": "ROLANDE",
+          "bar": [
+            12,
+            12
+          ],
+          "right": "ATK 7 · DEF 1 · lame runique +2"
+        },
+        {
+          "label": "CLET",
+          "bar": [
+            13,
+            14
+          ],
+          "right": "ATK 4 · DEF 2 · pelle"
+        },
+        {
+          "text": "torche : 3 beats · sortie : inconnue"
+        }
+      ]
+    }
+  ]
+}

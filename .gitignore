@@ -1,0 +1,6 @@
+# Dossiers de partie créés par les skills cartouche / cartouche-mods
+partie-*/
+
+# Outils locaux
+.crush/
+__pycache__/
